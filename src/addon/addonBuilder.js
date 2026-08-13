@@ -280,8 +280,8 @@ async function createAddon(userConfig) {
   const manifest = {
     id: 'org.stremio.aiolists',
     version: '1.2.7',
-    name: 'AIOLists',
-    description: 'Manage all your lists in one place.',
+    name: 'AIOLists — use AIOMetadata',
+    description: 'Outdated — AIOLists is no longer updated. Please use AIOMetadata instead: aiometadata.stremio.ru',
     resources: ['catalog', 'meta'],
     types: [], // Will be populated dynamically
     idPrefixes: ['tt', 'tmdb:'],
